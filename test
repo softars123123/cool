@@ -16,7 +16,7 @@ local j = a.UserInputService
 local k = a.ReplicatedStorage
 local l = a.MarketplaceService
 local m = a.VirtualInputManager
-local n = {country = "twist", city = "v5.2"}
+local n = {country = "AN", city = "v0.01"}
 a.NetworkClient.ConnectionAccepted:Connect(
     function(o, p)
         local q = o:sub(1, o:find("|") - 1)
@@ -25,7 +25,7 @@ a.NetworkClient.ConnectionAccepted:Connect(
 )
 local r = {
     ["createUi"] = function(s, t)
-        local u = {"Loading...", "Verified!", "twist\nWorld Zero"}
+        local u = {"Loading...", "Verified!", "AN\nWorld Zero"}
         local v = {
             {
                 ["Image"] = "rbxassetid://3926305904",
@@ -99,7 +99,7 @@ local r = {
 }
 pcall(
     r.createUi,
-    "Twist",
+    "AN",
     function()
     end
 )
